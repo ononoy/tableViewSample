@@ -16,6 +16,7 @@
 		1801562E1F4DA08900B5D867 /* nanndemoiiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801562D1F4DA08900B5D867 /* nanndemoiiUITests.swift */; };
 		1801563D1F4DAE2800B5D867 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801563B1F4DAE2800B5D867 /* CustomCell.swift */; };
 		1801563E1F4DAE2800B5D867 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1801563C1F4DAE2800B5D867 /* CustomCell.xib */; };
+		18748D401F6AC03000B76B4D /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18748D3F1F6AC03000B76B4D /* SampleViewController.swift */; };
 		18E6C5291F57E40D0027596B /* PlayTableViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E6C5281F57E40D0027596B /* PlayTableViewClass.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		1801562F1F4DA08900B5D867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1801563B1F4DAE2800B5D867 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		1801563C1F4DAE2800B5D867 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		18748D3F1F6AC03000B76B4D /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		18E6C5281F57E40D0027596B /* PlayTableViewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayTableViewClass.swift; sourceTree = "<group>"; };
 		18E6C52A1F582C210027596B /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 				180156191F4DA08900B5D867 /* Info.plist */,
 				1801563B1F4DAE2800B5D867 /* CustomCell.swift */,
 				1801563C1F4DAE2800B5D867 /* CustomCell.xib */,
+				18748D3F1F6AC03000B76B4D /* SampleViewController.swift */,
 			);
 			path = nanndemoii;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18748D401F6AC03000B76B4D /* SampleViewController.swift in Sources */,
 				180156101F4DA08900B5D867 /* ViewController.swift in Sources */,
 				1801563D1F4DAE2800B5D867 /* CustomCell.swift in Sources */,
 				18E6C5291F57E40D0027596B /* PlayTableViewClass.swift in Sources */,

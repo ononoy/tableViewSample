@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:nanndemoii.xcodeproj">
+      location = "self:/Users/y/Desktop/Chat/tableView/nanndemoii.xcodeproj">
    </FileRef>
 </Workspace>
