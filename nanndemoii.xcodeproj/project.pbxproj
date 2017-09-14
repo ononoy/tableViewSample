@@ -14,6 +14,9 @@
 		180156181F4DA08900B5D867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180156161F4DA08900B5D867 /* LaunchScreen.storyboard */; };
 		180156231F4DA08900B5D867 /* nanndemoiiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180156221F4DA08900B5D867 /* nanndemoiiTests.swift */; };
 		1801562E1F4DA08900B5D867 /* nanndemoiiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801562D1F4DA08900B5D867 /* nanndemoiiUITests.swift */; };
+		1801563D1F4DAE2800B5D867 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801563B1F4DAE2800B5D867 /* CustomCell.swift */; };
+		1801563E1F4DAE2800B5D867 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1801563C1F4DAE2800B5D867 /* CustomCell.xib */; };
+		18E6C5291F57E40D0027596B /* PlayTableViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E6C5281F57E40D0027596B /* PlayTableViewClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,10 @@
 		180156291F4DA08900B5D867 /* nanndemoiiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nanndemoiiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1801562D1F4DA08900B5D867 /* nanndemoiiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nanndemoiiUITests.swift; sourceTree = "<group>"; };
 		1801562F1F4DA08900B5D867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1801563B1F4DAE2800B5D867 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		1801563C1F4DAE2800B5D867 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		18E6C5281F57E40D0027596B /* PlayTableViewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayTableViewClass.swift; sourceTree = "<group>"; };
+		18E6C52A1F582C210027596B /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +84,7 @@
 		180156011F4DA08900B5D867 = {
 			isa = PBXGroup;
 			children = (
+				18E6C52A1F582C210027596B /* MyPlayground.playground */,
 				1801560C1F4DA08900B5D867 /* nanndemoii */,
 				180156211F4DA08900B5D867 /* nanndemoiiTests */,
 				1801562C1F4DA08900B5D867 /* nanndemoiiUITests */,
@@ -99,10 +107,13 @@
 			children = (
 				1801560D1F4DA08900B5D867 /* AppDelegate.swift */,
 				1801560F1F4DA08900B5D867 /* ViewController.swift */,
+				18E6C5281F57E40D0027596B /* PlayTableViewClass.swift */,
 				180156111F4DA08900B5D867 /* Main.storyboard */,
 				180156141F4DA08900B5D867 /* Assets.xcassets */,
 				180156161F4DA08900B5D867 /* LaunchScreen.storyboard */,
 				180156191F4DA08900B5D867 /* Info.plist */,
+				1801563B1F4DAE2800B5D867 /* CustomCell.swift */,
+				1801563C1F4DAE2800B5D867 /* CustomCell.xib */,
 			);
 			path = nanndemoii;
 			sourceTree = "<group>";
@@ -234,6 +245,7 @@
 			files = (
 				180156181F4DA08900B5D867 /* LaunchScreen.storyboard in Resources */,
 				180156151F4DA08900B5D867 /* Assets.xcassets in Resources */,
+				1801563E1F4DAE2800B5D867 /* CustomCell.xib in Resources */,
 				180156131F4DA08900B5D867 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				180156101F4DA08900B5D867 /* ViewController.swift in Sources */,
+				1801563D1F4DAE2800B5D867 /* CustomCell.swift in Sources */,
+				18E6C5291F57E40D0027596B /* PlayTableViewClass.swift in Sources */,
 				1801560E1F4DA08900B5D867 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,10 +426,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = nanndemoii/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ohno.nanndemoii;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +441,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = nanndemoii/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ohno.nanndemoii;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +525,7 @@
 				180156341F4DA08900B5D867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		180156351F4DA08900B5D867 /* Build configuration list for PBXNativeTarget "nanndemoiiTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +534,7 @@
 				180156371F4DA08900B5D867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		180156381F4DA08900B5D867 /* Build configuration list for PBXNativeTarget "nanndemoiiUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +543,7 @@
 				1801563A1F4DA08900B5D867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
